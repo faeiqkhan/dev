@@ -4938,3 +4938,8 @@ PRODUCT_COPY_FILES += \
 /proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
 /proprietary/vendor/lib64/libSecMMCodec.so:system/vendor/lib64/libSecMMCodec.so \
 
+PRODUCT_PACKAGES += \
+    libsdm-disp-apis \
+    libthermalclient \
+    ImsSettings \
+    embms
